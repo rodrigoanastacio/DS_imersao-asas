@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+import { FaWhatsapp } from 'react-icons/fa';
+
 import Hero from '../../components/Hero';
 import Headline from '../../components/Headline';
 
@@ -15,15 +17,20 @@ export default function Obrigado() {
       </Head>
       <Hero>
         <Headline>
-          <h1>Obrigado e Parabéns por se cadastrar na Imersão Asas!</h1>
+          <h1>Quase lá!</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
-            perspiciatis cupiditate maxime consectetur voluptatum provident
-            distinctio. Ab, perferendis laboriosam repellendus eveniet deserunt
-            at laudantium maiores eius, iure perspiciatis minima temporibus
-            suscipit, repudiandae nobis ipsam repellat.
+            Para não perder nenhuma informação do evento,{' '}
+            <strong>
+              entre para o grupo exclusivo do Whatsapp clicando no botão abaixo.
+            </strong>{' '}
           </p>
-          <a href="#">Entre no grupo exclusivo do Whatsapp</a>
+          <p>Aqui vou compartilhar informações extras sobre a Imersão!</p>
+          <a href="https://chat.whatsapp.com/F2QEygpMehYHryBxwe49i5">
+            <span>
+              <FaWhatsapp />
+            </span>{' '}
+            Entre no grupo exclusivo do Whatsapp
+          </a>
         </Headline>
       </Hero>
     </>

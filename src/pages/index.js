@@ -15,16 +15,13 @@ export default function Home() {
       <Hero>
         <Headline>
           <h1>
-            Descubra como{' '}
-            <strong>criar conteúdo de forma estratégica e intencional</strong>,
-            usando o poder da sua marca pessoal e posicionamento para vender
-            mais!
+            Aumente a percepção de valor da sua marca por meio do conteúdo
+            estratégico, posicionamento e marca pessoal para{' '}
+            <strong>vender mais no Instagram</strong>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            suscipit. Distinctio aliquam corporis mollitia dolor doloremque,
-            illo libero recusandae officiis. Et dolore, quos praesentium quaerat
-            ullam fugit assumenda tempora laudantium.
+            A Imersão vai acontecer nos dias <strong>28 e 29 de Agosto!</strong>{' '}
+            Então já anota na agenda para não esquecer!
           </p>
           <form
             id="sib-form"

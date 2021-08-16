@@ -17,16 +17,26 @@
   p {
     font-size: 1.25rem;
     margin-bottom: 1.875rem;
+
+    strong {
+      text-decoration: underline;
+    }
   }
 
   a {
-    padding: 1.875rem 2.5rem;
+    padding: 1.25rem 2.5rem;
     background-color: #25d366;
-    display: inline-block;
+    display: inline-flex;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.125rem;
     border-radius: 10px;
+    align-items: center;
+
+    span {
+      font-size: 1.875rem;
+      padding-right: 0.9375rem;
+    }
   }
 
   form {
