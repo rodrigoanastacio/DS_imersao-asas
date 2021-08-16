@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image';
 
 import Hero from '../components/Hero';
 import Headline from '../components/Headline';
@@ -36,6 +37,13 @@ export default function Home() {
 
       <Hero>
         <Headline>
+          <Image
+            src="/imersao-asas-logo.svg"
+            alt="Logo da Imersão Asas"
+            width={300}
+            height={150}
+          />
+          {/* <img src="imersao-asas-logo.svg" alt="" /> */}
           <h1>
             Aumente a percepção de valor da sua marca por meio do conteúdo
             estratégico, posicionamento e marca pessoal para{' '}
