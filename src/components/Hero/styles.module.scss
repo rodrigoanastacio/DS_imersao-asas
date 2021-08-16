@@ -1,0 +1,43 @@
+.hero {
+  background: linear-gradient(rgb(50, 75, 113) 0%, rgb(23, 36, 58) 50%);
+  min-height: 100vh;
+  text-align: center;
+  z-index: 10;
+
+  &::after {
+    content: '';
+    background: url(../../../public/borboleta.svg) no-repeat left center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+  }
+
+  &::before {
+    content: '';
+    background: url(../../../public/aguia.svg) no-repeat right center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    right: -10%;
+    top: 0;
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
