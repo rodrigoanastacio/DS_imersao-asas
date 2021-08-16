@@ -13,6 +13,25 @@ export default function Home() {
           content="Nesse evento eu vou te mostrar as estratégias certas que vão te ajudar a vender mais no Instagram!"
         />
         <link rel="icon" href="/favicon.ico" />
+
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Imsersão Asas, conheça as estratégias para vender mais no Instagram"
+        />
+        <meta
+          property="og:description"
+          content="Nesse evento você vai conhecer as estratégias certas que vão te ajudar a vender mais no Instagram!"
+        />
+        <meta property="og:url" content="https://imersao.dayanesilva.com.br" />
+        <meta property="og:site_name" content="Dayane Silva" />
+        <meta
+          property="og:image"
+          content="https://imersao.dayanesilva.com.br/imersao-og.jpg"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
       </Head>
 
       <Hero>
