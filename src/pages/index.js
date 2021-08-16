@@ -18,7 +18,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Imsersão Asas, conheça as estratégias para vender mais no Instagram"
+          content="Imersão Asas | Conheça as estratégias para vender mais no Instagram"
         />
         <meta
           property="og:description"
@@ -28,7 +28,7 @@ export default function Home() {
         <meta property="og:site_name" content="Dayane Silva" />
         <meta
           property="og:image"
-          content="https://imersao.dayanesilva.com.br/imersao-og.jpg"
+          content="https://imersao.dayanesilva.com.br/imersao-og.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
