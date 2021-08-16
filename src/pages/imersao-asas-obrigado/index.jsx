@@ -15,11 +15,13 @@ export default function Obrigado() {
       </Head>
       <Hero>
         <Headline>
-          <h1>Obrigado</h1>
+          <h1>Obrigado e Parabéns por se cadastrar na Imersão Asas!</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-            officiis enim ipsum ad tempore corporis minima nemo vero commodi
-            hic!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+            perspiciatis cupiditate maxime consectetur voluptatum provident
+            distinctio. Ab, perferendis laboriosam repellendus eveniet deserunt
+            at laudantium maiores eius, iure perspiciatis minima temporibus
+            suscipit, repudiandae nobis ipsam repellat.
           </p>
           <a href="#">Entre no grupo exclusivo do Whatsapp</a>
         </Headline>
