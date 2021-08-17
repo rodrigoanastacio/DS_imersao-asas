@@ -18,6 +18,12 @@ class MyDocument extends Document {
 
           <script
             dangerouslySetInnerHTML={{
+              __html: `src="https://www.googleoptimize.com/optimize.js?id=OPT-PSC39J5"`,
+            }}
+          />
+
+          <script
+            dangerouslySetInnerHTML={{
               __html: `!function(f,b,e,v,n,t,s)
                 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
                 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
