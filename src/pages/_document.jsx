@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 class MyDocument extends Document {
   render() {
@@ -6,9 +7,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <script
-            dangerouslySetInnerHTML={{
-              __html: `src="https://www.googleoptimize.com/optimize.js?id=OPT-PSC39J5"`,
-            }}
+            async
+            src={'https://www.googleoptimize.com/optimize.js?id=OPT-PSC39J5'}
           />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
