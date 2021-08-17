@@ -5,6 +5,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `src="https://www.googleoptimize.com/optimize.js?id=OPT-PSC39J5"`,
+            }}
+          />
+
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"
@@ -14,12 +20,6 @@ class MyDocument extends Document {
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Roboto:wght@100;400&display=swap"
             rel="stylesheet"
-          />
-
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `src="https://www.googleoptimize.com/optimize.js?id=OPT-PSC39J5"`,
-            }}
           />
 
           <script
@@ -56,7 +56,7 @@ class MyDocument extends Document {
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
 
-                gtag('config', 'UA-178122003-1');`,
+                gtag('config', 'UA-178122003-1', { 'optimize_id': 'OPT-PSC39J5'});`,
             }}
           />
         </Head>
